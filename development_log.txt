@@ -12,3 +12,4 @@ Task completed: feat: add Login and Register views with validation - 11/10/2026 
 Task completed: feat: create Organiser Dashboard and Create Event views - 11/10/2026 01:17:13
 Task completed: feat: create Participant Event Listing and My Results views - 11/10/2026 01:17:14
 Task completed: style: update _Layout.cshtml to include role-based dynamic navigation - 11/10/2026 01:17:15
+Task completed: style: implement custom RaceDay energetic theme in site.css - 11/10/2026 01:17:17
