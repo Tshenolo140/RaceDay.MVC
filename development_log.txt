@@ -18,3 +18,4 @@ Task completed: feat: update Create Event form to handle multipart form data (ba
 Task completed: chore: add multi-stage Dockerfile for Linux container deployment - 11/10/2026 01:17:21
 Task completed: chore: add .dockerignore to optimize container build - 11/10/2026 01:17:22
 Task completed: ci: add GitHub Actions workflow (ci.yml) to build and validate MVC project - 11/10/2026 01:17:23
+Task completed: docs: create README with project overview and setup instructions - 11/10/2026 01:17:25
