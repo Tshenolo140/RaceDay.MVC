@@ -10,3 +10,4 @@ Task completed: feat: implement OrganiserController for dashboard and event mana
 Task completed: feat: implement ParticipantController for viewing events and results - 11/10/2026 01:17:10
 Task completed: feat: add Login and Register views with validation - 11/10/2026 01:17:11
 Task completed: feat: create Organiser Dashboard and Create Event views - 11/10/2026 01:17:13
+Task completed: feat: create Participant Event Listing and My Results views - 11/10/2026 01:17:14
