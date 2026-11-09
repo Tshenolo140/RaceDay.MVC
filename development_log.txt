@@ -4,3 +4,4 @@ Task completed: chore: add API BaseUrl to appsettings.json - 11/10/2026 01:17:01
 Task completed: feat: add Auth and Register ViewModels - 11/10/2026 01:17:02
 Task completed: feat: add Event, Profile, and Result ViewModels - 11/10/2026 01:17:04
 Task completed: feat: create IApiService interface for API communication - 11/10/2026 01:17:05
+Task completed: feat: implement ApiService with JWT Bearer token attachment - 11/10/2026 01:17:06
