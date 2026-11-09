@@ -17,3 +17,4 @@ Task completed: feat: add file upload logic to ApiService for Azure Blob Storage
 Task completed: feat: update Create Event form to handle multipart form data (banner images) - 11/10/2026 01:17:19
 Task completed: chore: add multi-stage Dockerfile for Linux container deployment - 11/10/2026 01:17:21
 Task completed: chore: add .dockerignore to optimize container build - 11/10/2026 01:17:22
+Task completed: ci: add GitHub Actions workflow (ci.yml) to build and validate MVC project - 11/10/2026 01:17:23
