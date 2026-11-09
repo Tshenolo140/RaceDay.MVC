@@ -1,0 +1,30 @@
+﻿@model RaceDay.MVC.Models.EventViewModel
+@{
+    ViewData["Title"] = "Create Event";
+}
+<div class="card p-4 col-md-6 offset-md-3">
+    <h2>Create Event</h2>
+    <form asp-action="CreateEvent" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label asp-for="EventName" class="form-label">Event Name</label>
+            <input asp-for="EventName" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label asp-for="EventDate" class="form-label">Date</label>
+            <input asp-for="EventDate" type="date" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Location" class="form-label">Location</label>
+            <input asp-for="Location" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label asp-for="MaxParticipants" class="form-label">Max Participants</label>
+            <input asp-for="MaxParticipants" type="number" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Event Banner Image (Azure Blob)</label>
+            <input type="file" name="banner" class="form-control" accept="image/*" />
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Create Event</button>
+    </form>
+</div>

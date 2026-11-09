@@ -1,0 +1,25 @@
+﻿@model IEnumerable<RaceDay.MVC.Models.EventViewModel>
+@{
+    ViewData["Title"] = "Organiser Dashboard";
+}
+<h2>Organiser Dashboard</h2>
+<a asp-action="CreateEvent" class="btn btn-primary mb-3">Create New Event</a>
+
+<div class="row">
+    @foreach (var ev in Model)
+    {
+        <div class="col-md-4">
+            <div class="card">
+                @if (!string.IsNullOrEmpty(ev.BannerUrl))
+                {
+                    <img src="@ev.BannerUrl" class="card-img-top" style="height:150px; object-fit:cover;" alt="Event Banner">
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@ev.EventName</h5>
+                    <p class="card-text">@ev.Location | @ev.EventDate.ToString("dd MMM yyyy")</p>
+                    <span class="badge @(ev.Status == "Upcoming" ? "bg-success" : "bg-secondary")">@ev.Status</span>
+                </div>
+            </div>
+        </div>
+    }
+</div>

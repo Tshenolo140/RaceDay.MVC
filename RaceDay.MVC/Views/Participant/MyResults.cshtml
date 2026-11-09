@@ -1,0 +1,29 @@
+﻿@model IEnumerable<RaceDay.MVC.Models.ResultViewModel>
+@{
+    ViewData["Title"] = "My Results";
+}
+<h2>My Results</h2>
+
+<table class="table table-striped mt-4">
+    <thead>
+        <tr>
+            <th>Event Name</th>
+            <th>Finish Time</th>
+            <th>Overall Rank</th>
+            <th>Category Rank</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var res in Model)
+        {
+            <tr>
+                <td>@res.EventName</td>
+                <td>@res.FinishTime.ToString(@"hh\:mm\:ss")</td>
+                <td>@res.OverallRank</td>
+                <td>@res.CategoryRank</td>
+                <td><span class="badge @(res.Status == "Official" ? "bg-success" : "bg-warning")">@res.Status</span></td>
+            </tr>
+        }
+    </tbody>
+</table>
